@@ -1,5 +1,14 @@
 <?php
     include 'modules/header.php';
+
+    $posts = [
+        [
+            "title" => "",
+            "content"=> "",
+            "tag"=> ""
+        ]
+    ];
+    
 ?>
 
 <div class="m-1 pt-2">    
