@@ -3,7 +3,7 @@
 ?>
     
 <div class="m-5 p-5 row justify-content-center">
-    <form class="form-group p-3 mb-2 bg-light text-dark rounded col-md-4" action="www.example.com/login.php" method="POST">
+    <form class="form-group p-3 mb-2 bg-light text-dark rounded col-md-4" action="login.php" method="POST">
         <fieldset>
             <legend> <b>Login Data </b></legend>
             <label><b>Email: </b></label>

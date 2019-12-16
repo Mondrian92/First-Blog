@@ -11,7 +11,7 @@
                     <div class="card-body">
                         <p class="card-text">
                             <figure>
-                                <img class="img-fluid rounded" src="../assets/images/about-me-profile-3.jpg" alt="Me during B4V, a LARP event in Rome" title="A photo of me during Battle For Vilegis, the biggest LARP event in Italy" width="" height="" />
+                                <img class="img-fluid rounded" src="assets/images/about-me-profile-3.jpg" alt="Me during B4V, a LARP event in Rome" title="A photo of me during Battle For Vilegis, the biggest LARP event in Italy" width="" height="" />
                                 <br />
                                 <figcaption>A photo of me during Battle For Vilegis, the biggest <abbr title="Live Action Role Playing Game">LARP</abbr> event in Italy, <i>PH Alessio Depe</i> </figcaption>
                             </figure>
