@@ -1,6 +1,8 @@
 <?php
     
     include "view/login.php";
+    
+
 
     if(isset($_POST['email']))
     {

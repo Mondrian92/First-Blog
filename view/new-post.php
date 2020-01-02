@@ -3,7 +3,7 @@
 ?>
 
 <div class="m-5 p-5 row justify-content-center">
-    <form class="form-group p-3 mb-2 bg-light text-dark rounded col-md-4" method="post" action="topost.php">
+    <form class="form-group p-3 mb-2 bg-light text-dark rounded col-md-4" method="post" action="core/topost.php">
         <fieldset>
             <legend><b>Aggiungi Post</b></legend>
             <label><b>Titolo:</b></label>
