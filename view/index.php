@@ -10,13 +10,15 @@
                 <h3 class="card-title"><?php echo($post["title"]); ?></h3>
                 <p class="card-text"><?php echo($post["content"]); ?></p>
                 <p class="card-text">Tags
-                    <? foreach($post["tag"] as $tag) ?>
+                    <?php foreach($post["tag"] as $tag): ?>
                         <a href=""><?php echo($tag); ?></a>
+                    <?php endforeach; ?>
                 </p>
             </div>
         <?php endforeach; ?>
     </div>
 </div>
+
 <?php
     include 'modules/footer.php';
 ?>
