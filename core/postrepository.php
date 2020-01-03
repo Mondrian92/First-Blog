@@ -23,6 +23,24 @@
             return $decodedContent;
         }
 
+        public function getAllByTag($tag)
+        {
+            $posts=$this->getAll();
+
+            foreach ($posts as $article)
+            {
+                foreach ($article['tag'] as $singleTag)
+                {
+                    if ($singleTag == $tag)
+                    {
+                        $postByTag[] = $article;
+                    }
+                }
+            }
+
+            return $postByTag;
+        }
+
         public function remove($title)
         {
             $posts = $this->getAll();

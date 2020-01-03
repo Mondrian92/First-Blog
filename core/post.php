@@ -30,17 +30,17 @@
 
         public function setTitle(string $title)
         {
-            $this->title;
+            $this->title=$title;
         }
 
-        public function setContent() 
+        public function setContent(string $content) 
         {
-            $this->content;
+            $this->content=$content;
         }
 
-        public function setTags()
+        public function setTags(array $tags)
         {
-            $this->tags;
+            $this->tags=$tags;
         }
 
 

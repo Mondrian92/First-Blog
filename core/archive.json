@@ -50,5 +50,23 @@
         "tag": [
             ""
         ]
+    },
+    {
+        "title": "Settimo articolo",
+        "content": "Prova con modifica codice",
+        "tag": [
+            "Uno",
+            "Due",
+            "Tre"
+        ]
+    },
+    {
+        "title": "Ottavo articolo",
+        "content": "questo post ha tag uguali ad un altro cos\u00ec da provare il filtro",
+        "tag": [
+            "Pippo",
+            "Paperino",
+            "Topolino"
+        ]
     }
 ]
