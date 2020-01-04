@@ -15,9 +15,11 @@
                             <a href="index.php?tag=<?php echo $tag ?>"><?php echo($tag); ?></a>
                         <?php endforeach; ?>
                     </p>
-                    <p class="card-text">
-                        <a href="core/removepost.php?title=<?php echo urlencode($post["title"]) ?>">Elimina</a>
-                    </p>
+                    <?php if(isLogged()){ ?>
+                        <p class="card-text">
+                            <a href="core/removepost.php?title=<?php echo urlencode($post["title"]) ?>">Elimina</a>
+                        </p>
+                    <?php } ?>
                 </div>
             <?php endforeach; ?>
         <?php } else { ?>
@@ -31,9 +33,11 @@
                             <a href="index.php?tag=<?php echo $tag ?>"><?php echo($tag); ?></a>
                         <?php endforeach; ?>
                     </p>
-                    <p class="card-text">
-                        <a href="core/removepost.php?title=<?php echo urlencode($post["title"]) ?>">Elimina</a>
-                    </p>
+                    <?php if(isLogged()){ ?>
+                        <p class="card-text">
+                            <a href="core/removepost.php?title=<?php echo urlencode($post["title"]) ?>">Elimina</a>
+                        </p>
+                    <?php } ?>
                 </div>
             <?php endforeach; ?>
         <?php } ?>
