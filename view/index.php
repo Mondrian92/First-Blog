@@ -15,6 +15,9 @@
                             <a href="index.php?tag=<?php echo $tag ?>"><?php echo($tag); ?></a>
                         <?php endforeach; ?>
                     </p>
+                    <p class="card-text">
+                        <a href="core/removepost.php?title=<?php echo urlencode($post["title"]) ?>">Elimina</a>
+                    </p>
                 </div>
             <?php endforeach; ?>
         <?php } else { ?>
@@ -27,6 +30,9 @@
                         <?php foreach($post["tag"] as $tag): ?>
                             <a href="index.php?tag=<?php echo $tag ?>"><?php echo($tag); ?></a>
                         <?php endforeach; ?>
+                    </p>
+                    <p class="card-text">
+                        <a href="core/removepost.php?title=<?php echo urlencode($post["title"]) ?>">Elimina</a>
                     </p>
                 </div>
             <?php endforeach; ?>

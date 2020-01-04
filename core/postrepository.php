@@ -44,13 +44,24 @@
         public function remove($title)
         {
             $posts = $this->getAll();
-            foreach ($posts as $index => $post) 
+            foreach ($posts as $index => $article) 
             {
-                if ($post->title === $title) {
+                if ($article['title'] === $title)
+                {
                     unset($posts[$index]);
                 }
             }
 
+            //for ($i=0; $i < count($posts); $i++) 
+            //{
+              //  if(isset($posts[$i])) 
+                //if ($posts[$i]['title'] === $title)
+                //{
+                  //  echo "pereppe";
+                    //unset($posts[$i]);
+                //}
+            //}
+            
             $this->store($posts);
         }
 
